@@ -89,6 +89,15 @@ body {
   height: 100%;
 }
 
+.attribution { 
+  font-size: 11px; text-align: center;
+  margin-top: 20px;
+  color: hsla(0, 0%, 100%, 0.6);
+}
+.attribution a { 
+  color: hsl(228, 45%, 44%); 
+}
+
 /* Responsive */
 @media (max-width: 900px) {
   .card {
