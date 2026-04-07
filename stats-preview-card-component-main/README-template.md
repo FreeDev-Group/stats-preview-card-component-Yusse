@@ -9,7 +9,9 @@ Users should be able to:
 
 ### Screenshot
 
-![My screenshot] Click this link to view my screenshot(<img src="./images/My social links.png">)
+My screenshot
+
+<img src="./images/My social links.png">
 
 
 
@@ -20,25 +22,30 @@ Users should be able to:
 
 I have learned to make this page responsive using CSS styling : 
 
+````
 @media (max-width: 900px) {
+
   .card {
     flex-direction: column-reverse;
     text-align: center;
   }
+  
   .card-text {
     width: 100%;
     padding: 40px;
     text-align: center;
   }
+  
   .stats {
     justify-content: center;
   }
+  
   .card-image {
     width: 100%;
     height: 300px;
   }
 }
-
+````
 
 ### Useful resources
 
